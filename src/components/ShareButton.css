@@ -1,0 +1,35 @@
+.share-button-container {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 1rem; /* Add top margin to separate from the image */
+}
+
+.share-button {
+  background-color: #4c6ef5; /* Set the background color */
+  color: white; /* Set the text color */
+  padding: 0.5rem 1rem; /* Add padding around the button */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Round the button corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition on background color change */
+}
+
+.share-button:not(:last-child) {
+  margin-right: 0.5rem; /* Add right margin to separate the buttons */
+}
+
+.share-button:hover {
+  background-color: #3c56d5; /* Change background color on hover */
+}
+
+.facebook {
+  background-color: #4267b2; /* Set the background color for the Facebook button */
+}
+
+.twitter {
+  background-color: #1da1f2; /* Set the background color for the Twitter button */
+}
+
+.whatsapp {
+  background-color: #25d366; /* Set the background color for the WhatsApp button */
+}
